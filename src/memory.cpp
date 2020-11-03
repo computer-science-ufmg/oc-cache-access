@@ -33,7 +33,7 @@ std::vector<std::string> Memory::get_block(int address){
 	for(int i = 0; i < 4; i++){
 		block.push_back(this->get_word(start + i));
 	}
-	std::cout << "BLOCK SIZE ON GETBLOCK: " << block.size() << std::endl;
+	// std::cout << "BLOCK SIZE ON GETBLOCK: " << block.size() << std::endl;
 	return block;
 }
 

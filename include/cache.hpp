@@ -8,7 +8,7 @@
 
 class Cache{
     private:
-        CacheBlock blocks[BLOCK_SIZE];
+        CacheBlock blocks[CACHE_SIZE];
         Memory mem;
 
     public:

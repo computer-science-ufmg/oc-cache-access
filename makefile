@@ -26,7 +26,7 @@ clean:
 	rm $(TARGET_NAME)
 
 run:
-	$(TARGET_NAME) ./input/in.txt
+	$(TARGET_NAME) ./input/in02.txt
 
 mem:
 	valgrind --leak-check=full --show-leak-kinds=all $(TARGET_NAME) ./input.txt > ./output/mem.log

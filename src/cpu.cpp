@@ -83,8 +83,8 @@ void Cpu::run(){
 }
 
 void Cpu::print_outputs(){
-  float hit_rate = hits/(hits+misses);
-  float miss_rate = misses/(hits+misses);
+  float hit_rate = ((float)hits)/((float)(hits+misses));
+  float miss_rate = ((float)misses)/((float)(hits+misses));
 
   output << "READS: " << reads << std::endl;
   output << "WRITES: " << writes << std::endl;

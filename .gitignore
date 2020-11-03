@@ -1,4 +1,5 @@
 tp3
+result.txt
 output/**
 !output/.gitkeep
 build/
