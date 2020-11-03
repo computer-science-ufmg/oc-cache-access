@@ -1,4 +1,4 @@
-# make
+make
 if (( $# > 0 )) 
 then
   ./tp3 $1
