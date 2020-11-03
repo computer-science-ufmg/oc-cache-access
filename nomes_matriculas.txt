@@ -1,3 +1,7 @@
 Fábio Silva Brum, 2018123674
 Luis Fernando Camargos Carvalho, 2018046467
 Luiz Philippe Pereira Amaral, 2018054575
+
+Para executar o código utilize o script "run.sh" na raiz do projeto.
+O comando executa sobre a entrada padrão contida em "input/in01.txt".
+Para especificar um arquivo de entrada, utiliza "./run.sh caminho/da/entrada.txt"
