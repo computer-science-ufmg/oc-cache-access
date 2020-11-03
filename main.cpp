@@ -4,9 +4,17 @@
 
 #include<iostream>
 
-int main(int agrc, char const *argv[]){
+int main(int argc, char const *argv[]){
 
-    std::cout << Cpu::b_to_int("10001110") << std::endl;
-    std::cout << Cpu::int_to_b(255, 1) << std::endl;
+    if(argc > 1){
+        Cpu *cpu = new Cpu(argv[1]);
+        cpu->run();
+        cpu->print_outputs();
+        delete cpu;
+    }
+    else{
+        std::cout << "Provide an input file..." << std::endl;
+    }
+
     return 0;
 }
